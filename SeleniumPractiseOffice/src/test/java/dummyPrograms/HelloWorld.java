@@ -70,7 +70,7 @@ public class HelloWorld extends BaseClass {
 		System.out.println("Local Variable "+ a);
 		System.out.println("Global Variable "+ b);
 		HelloWorld A=new HelloWorld();
-		System.out.println("Non static variable"+A.c);
+		System.out.println("Non static variable "+ A.c);
 		read();//static method
 		A.write();//non static method
 		A.swim();//Called from BaseClass which is a parent class

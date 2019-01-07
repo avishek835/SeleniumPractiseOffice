@@ -9,6 +9,11 @@ public class D {
 		System.out.println("I can talk");
 	}
 	
+	public static void sing()
+	{
+		System.out.println("I can sing in D");
+	}
+	
 	public static void main(String args[])
 	{
 		C c=new C();
@@ -16,6 +21,7 @@ public class D {
 		c.sing();
 		D d=new D();
 		d.talk();
+		D.sing();
 	}
 
 

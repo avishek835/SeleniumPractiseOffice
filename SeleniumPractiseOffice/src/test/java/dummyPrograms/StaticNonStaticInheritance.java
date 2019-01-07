@@ -3,7 +3,7 @@ package dummyPrograms;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class HelloWorld extends BaseClass {
+public class StaticNonStaticInheritance extends BaseClass {
 	WebDriver driver;
 	WebElement element;
 	public static int b =10;
@@ -17,7 +17,7 @@ public class HelloWorld extends BaseClass {
 		 System.out.println("I can write as well");
 	 }
 	 
-	 HelloWorld()//This is constructor and at the time of object creation automatically constructor block will be called.
+	 StaticNonStaticInheritance()//This is constructor and at the time of object creation automatically constructor block will be called.
 	 {
 		 System.out.println("I am in Constructor Class");
 	 }
@@ -69,7 +69,7 @@ public class HelloWorld extends BaseClass {
 		int a=5;//local variable
 		System.out.println("Local Variable "+ a);
 		System.out.println("Global Variable "+ b);
-		HelloWorld A=new HelloWorld();
+		StaticNonStaticInheritance A=new StaticNonStaticInheritance();
 		System.out.println("Non static variable "+ A.c);
 		read();//static method
 		A.write();//non static method

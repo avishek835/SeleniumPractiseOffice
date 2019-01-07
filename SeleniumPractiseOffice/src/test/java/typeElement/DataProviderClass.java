@@ -1,4 +1,4 @@
-package dummyPrograms;
+package typeElement;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

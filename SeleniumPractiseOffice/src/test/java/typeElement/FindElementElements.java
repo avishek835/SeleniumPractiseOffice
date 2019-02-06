@@ -48,6 +48,14 @@ public class FindElementElements {
 	 //get window handle, it will return current window,get window handles, it will return multiple windows.
 	 //both will manage by switchto
 	}
+	
+	@Test
+	public void practise()
+	{
+		driver.navigate();
+	}
+	
+	
 /*@AfterClass
 public void quit()
 {
